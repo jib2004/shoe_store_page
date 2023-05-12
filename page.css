@@ -537,9 +537,13 @@ h3 span{
         transform: translateX(-45%);
        }
 
+       .cart-basket-filled{
+        margin-bottom: 30px;
+       }
+
        .checkout{
         padding: 5px 10px;
-        width: 100%;
+        width: 80%;
         margin: 0;
         
        }
