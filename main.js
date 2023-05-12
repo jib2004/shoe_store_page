@@ -99,7 +99,8 @@ const decreaseAmount= () =>{
 cartExit.forEach(basket=>{
     basket.addEventListener('click', ()=>{
         if(amt>=1 && lAmt >=1 ){
-            cartAmountDisplay.classList.toggle('exit')
+            cartbask.classList.add("exit")
+          
             // cartAmountDisplay.classList.remove("cart-basket-fillAmount")
             
             // cartAmountDisplay.style.display = 'none'
@@ -108,7 +109,7 @@ cartExit.forEach(basket=>{
             
             console.log('click1')
         }else{
-            cartbask.classList.toggle("exit")
+            cartAmountDisplay.classList.add('exit')
             // cartbask.classList.remove("cart-basket-display")
             
         //  cartbask.style.display = 'none'
