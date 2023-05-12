@@ -533,9 +533,16 @@ h3 span{
        .cart-basket-fillAmount{
         width: 300px;
         left: -50%;
+        padding: 0;
         transform: translateX(-45%);
        }
 
+       .checkout{
+        padding: 5px 10px;
+        width: 100%;
+        margin: 0;
+        
+       }
        
        main{
             flex-direction: column
