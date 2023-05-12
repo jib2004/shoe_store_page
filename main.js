@@ -120,11 +120,13 @@ cartExit.forEach(basket=>{
 
 
 menuIcon.addEventListener('click', ()=>{
-    nav.style.animation = "slideIn 1s  ease-in-out  forwards"
+    nav.classList.add('navSlide')
+    nav.classList.remove('navNodisplay')
+
 })
 
 closeMenu.addEventListener('click', ()=>{
-    nav.style.display = "none";
+    nav.classList.add('navNodisplay');
 })
 
 

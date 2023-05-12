@@ -465,7 +465,16 @@ h3 span{
         width: 10em;
         z-index: 1;
         left: -11em;
-        top: calc(4.9em - 0.2em) ;    
+        top: calc(4.9em - 0.2em) ; 
+
+    }
+
+    .navSlide{
+      animation:   slideIn 1s  ease-in-out  forwards;
+    }
+
+    .navNodisplay{
+        display: none;
     }
     @keyframes slideIn {
         from{
