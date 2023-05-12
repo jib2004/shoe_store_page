@@ -357,8 +357,14 @@ h3 span{
 }
 #amount{
     background-color: hsl(223, 64%, 98%);
-    padding: 15px 20px;
+    padding: 17px 20px;
+    outline: none;
+    border: none;
     font-weight: 700;
+}
+
+#amount:disabled{
+    color: black;
 }
 .addtocart{
     padding: 15px 70px;
@@ -571,6 +577,12 @@ h3 span{
        }
        .product-details{
         width: 100vw;
+        /* border: 1px solid red; */
+        padding: 5px;
+       }
+
+       .product-details h1{
+        text-align: center;
        }
 
        .product-details p{
@@ -581,11 +593,15 @@ h3 span{
 
        .discount{
             display: flex;
+            /* border: 1px solid red; */
+            width: 90vw;
+            justify-content: center;
             /* border: 1px solid hsl(26, 100%, 55%); */
             align-items: center;
        }
        .discount p{
-        margin-top:  0.17em !important;
+        margin-top:  0.32em !important;
+        margin-left: 10px;
         
        }
 
@@ -611,16 +627,18 @@ h3 span{
 
        }
        #amount{
-            
-            padding-bottom: calc(15px + 0.1px);
+            /* padding:10px ; */
+            /* background-color: red; */
+            /* padding-bottom: calc(15px + 0.1px); */
        }
 
         .left-button{
-        
+        /* background-color: blue !important; */
         padding-left: 10px !important;
        } 
        
        .right-button{
+        /* background-color: green; */
         padding-right: 10px !important;
        }
 
