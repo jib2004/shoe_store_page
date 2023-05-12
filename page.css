@@ -594,4 +594,9 @@ h3 span{
        .right-button{
         padding-right: 10px !important;
        }
+
+       .addtocart{
+        width: 90%;
+        margin: 0 auto;
+       }
 }
