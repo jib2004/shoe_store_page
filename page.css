@@ -419,8 +419,9 @@ h3 span{
     header{ 
         /* border: 1px solid hsl(26, 100%, 55%); */
         margin: 0;
-        width:100%;
-    
+        width:100vw;
+        justify-content: unset;
+        margin: 0;
         padding: 0;
     }
 
@@ -433,7 +434,8 @@ h3 span{
     display: flex;
     padding: 0;
     align-items: center;
-    /* flex-basis: 50%; */
+    flex-basis: 50%;
+    padding-left: 10px;
     justify-content: start;
     display: flex;
     }
@@ -441,6 +443,10 @@ h3 span{
     .logo div{
         margin: 0;
         margin-right: 10px;
+    }
+
+    .logo_img{
+        width: 60px;
     }
 
     .nav{
@@ -477,14 +483,24 @@ h3 span{
     }
 
     .user-profile{
-        
+        flex-basis: 50%;
+        align-items: center;
         /* justify-content: end; */
     }
 
     .user-profile img{
-        width: 20px;
+        width: 25px;
     }
     
+    .avatar{
+        width: 5px;
+    
+    }
+    .avatar:hover{
+        border: unset;
+
+    }
+
     .menu-icon{
         display: block;
     }
@@ -532,9 +548,11 @@ h3 span{
        	
        .cart-basket-fillAmount{
         width: 300px;
-        left: -50%;
         padding: 0;
-        transform: translateX(-45%);
+        
+        width: 300px;
+        left: -50%;
+        transform: translateX(-65%);
        }
 
        .cart-basket-filled{
