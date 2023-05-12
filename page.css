@@ -580,6 +580,10 @@ h3 span{
 
        }
 
+       .checkout_div{
+        margin-top: 10px;
+       }
+
        .checkout{
         padding: 5px 10px;
         width: 80%;
