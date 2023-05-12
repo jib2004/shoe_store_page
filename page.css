@@ -564,14 +564,20 @@ h3 span{
        .cart-basket-fillAmount{
         width: 300px;
         padding: 0;
-        
-        width: 300px;
         left: -50%;
         transform: translateX(-65%);
        }
 
+
        .cart-basket-filled{
+        padding: 10px;
         margin-bottom: 30px;
+       }
+
+       #delete{
+        width: 15px ;
+        margin-left: 5px;
+
        }
 
        .checkout{
