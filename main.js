@@ -120,7 +120,7 @@ cartExit.forEach(basket=>{
 
 
 menuIcon.addEventListener('click', ()=>{
-    nav.style.animation = "slideIn 2s  ease-in-out 1s forwards"
+    nav.style.animation = "slideIn 1s  ease-in-out  forwards"
 })
 
 closeMenu.addEventListener('click', ()=>{
