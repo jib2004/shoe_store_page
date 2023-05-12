@@ -493,13 +493,18 @@ h3 span{
     }
 
     #product-display-container{
-        border: 1px solid red; 
+        /* border: 1px solid red;  */
         width: 100vw;
-          /* padding: 30px; */
+          /* padding: 3
+          0px; */
     }
 
     .product{
-        width: 300px !important;
+        width: 100% !important;
+    }
+
+    .product-display{
+        width: 100%;
     }
 
     .product-display div{
@@ -509,7 +514,7 @@ h3 span{
         padding: 0;
         gap: 0;
         grid-template-columns: auto auto auto auto;
-        width: 90vw;
+        width: 100vw;
        }
 
        .thumbnail_img img{
